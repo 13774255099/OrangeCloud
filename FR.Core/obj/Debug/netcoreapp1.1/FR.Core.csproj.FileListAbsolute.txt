@@ -1,0 +1,8 @@
+E:\work\FR\FR.Core\bin\Debug\netcoreapp1.1\FR.Core.deps.json
+E:\work\FR\FR.Core\bin\Debug\netcoreapp1.1\FR.Core.dll
+E:\work\FR\FR.Core\obj\Debug\netcoreapp1.1\FR.Core.csproj.CoreCompileInputs.cache
+E:\work\FR\FR.Core\obj\Debug\netcoreapp1.1\FR.Core.AssemblyInfo.cs
+E:\work\FR\FR.Core\bin\Debug\netcoreapp1.1\FR.Core.pdb
+E:\work\FR\FR.Core\obj\Debug\netcoreapp1.1\FR.Core.dll
+E:\work\FR\FR.Core\obj\Debug\netcoreapp1.1\FR.Core.pdb
+E:\work\FR\FR.Core\obj\Debug\netcoreapp1.1\FR.Core.csprojResolveAssemblyReference.cache

@@ -1,0 +1,8 @@
+D:\work\FR\FR.Core\bin\Debug\netcoreapp2.0\FR.Core.deps.json
+D:\work\FR\FR.Core\bin\Debug\netcoreapp2.0\FR.Core.dll
+D:\work\FR\FR.Core\bin\Debug\netcoreapp2.0\FR.Core.pdb
+D:\work\FR\FR.Core\obj\Debug\netcoreapp2.0\FR.Core.csproj.CoreCompileInputs.cache
+D:\work\FR\FR.Core\obj\Debug\netcoreapp2.0\FR.Core.AssemblyInfoInputs.cache
+D:\work\FR\FR.Core\obj\Debug\netcoreapp2.0\FR.Core.AssemblyInfo.cs
+D:\work\FR\FR.Core\obj\Debug\netcoreapp2.0\FR.Core.dll
+D:\work\FR\FR.Core\obj\Debug\netcoreapp2.0\FR.Core.pdb
