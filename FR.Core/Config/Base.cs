@@ -9,49 +9,49 @@ namespace FR.Core
         /// <summary>
         /// Cookie - 登录
         /// </summary>
-        public static readonly string LoginCookieName = "";
+        public static readonly string FR_Cookie_Login = ComConfig.AppSettings["FR.Cookie.Login"];
 
         /// <summary>
         /// KEY
         /// </summary>
-        public static readonly string Key = "";
+        public static readonly string FR_Api_Key = ComConfig.AppSettings["FR.Api.Key"];
 
         /// <summary>
         /// CPKey
         /// </summary>
-        public static readonly string CPKey = "";
+        public static readonly string FR_Api_CPKey = ComConfig.AppSettings["FR.Api.CPKey"];
 
         /// <summary>
         /// 使用的数据库
         /// </summary>
-        public static readonly string DataBase = "SqlServer";
+        public static readonly string FR_Core_DataTable_Type = ComConfig.AppSettings["FR.Core.DataTable.Type"];
 
         /// <summary>
         /// 数据表主键名称
         /// </summary>
-        public static readonly string DataTableIdName = "";
+        public static readonly string FR_Core_DataTable_IDName = ComConfig.AppSettings["FR.Core.DataTable.IDName"];
 
         /// <summary>
         /// 数据库Key前缀
         /// </summary>
-        public static readonly string DataBaseKeyPrefix = "";
+        public static readonly string FR_Core_DatabaseKey_Prefix = ComConfig.AppSettings["FR.Core.DatabaseKey.Prefix"];
 
         /// <summary>
         /// 数据库Key后缀
         /// </summary>
-        public static readonly string DataBaseKeySuffix = "";
+        public static readonly string FR_Core_DatabaseKey_Suffix = ComConfig.AppSettings["FR.Core.DatabaseKey.Suffix"];
 
         #region AppSettings Key名称设置
 
         /// <summary>
         /// （AppSettings）是否把SQL记录到文本日志
         /// </summary>
-        public static readonly string SaveLog = "SaveLog";
+        public static readonly string FR_Log_IsSave = ComConfig.AppSettings["FR.Log.IsSave"];
 
         /// <summary>
         /// （AppSettings）文本日志路径
         /// </summary>
-        public static readonly string SavePath = "SavePath";
+        public static readonly string FR_Log_SavePath = ComConfig.AppSettings["FR.Log.SavePath"];
 
         #endregion
 
@@ -62,10 +62,10 @@ namespace FR.Core
         /// <returns></returns>
         public static string GetPrimaryKey(string tbName)
         {
-            if (string.IsNullOrWhiteSpace(DataTableIdName))
+            if (string.IsNullOrWhiteSpace(FR_Core_DataTable_IDName))
                 return tbName + "ID";
             else
-                return DataTableIdName;
+                return FR_Core_DataTable_IDName;
         }
     }
 }

@@ -1,18 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using Microsoft.Extensions.Configuration;
+﻿using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Configuration.Json;
 
 namespace FR.Core
 {
-    public class AppConfigurtaionServices
+    public class ComConfig
     {
-        public static IConfiguration Configuration { get; set; }
-        static AppConfigurtaionServices()
+        public static IConfiguration AppSettings { get; set; }
+        static ComConfig()
         {
             //ReloadOnChange = true 当appsettings.json被修改时重新加载            
-            Configuration = new ConfigurationBuilder()
+            AppSettings = new ConfigurationBuilder()
             .Add(new JsonConfigurationSource { Path = "appsettings.json", ReloadOnChange = true })
             .Build();
         }

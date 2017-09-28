@@ -1,0 +1,13 @@
+D:\work\FR\FR.Web.Test\bin\Debug\netcoreapp2.0\FR.Web.Test.deps.json
+D:\work\FR\FR.Web.Test\bin\Debug\netcoreapp2.0\FR.Web.Test.runtimeconfig.json
+D:\work\FR\FR.Web.Test\bin\Debug\netcoreapp2.0\FR.Web.Test.runtimeconfig.dev.json
+D:\work\FR\FR.Web.Test\bin\Debug\netcoreapp2.0\FR.Web.Test.dll
+D:\work\FR\FR.Web.Test\bin\Debug\netcoreapp2.0\FR.Web.Test.pdb
+D:\work\FR\FR.Web.Test\obj\Debug\netcoreapp2.0\FR.Web.Test.csprojResolveAssemblyReference.cache
+D:\work\FR\FR.Web.Test\obj\Debug\netcoreapp2.0\FR.Web.Test.csproj.CoreCompileInputs.cache
+D:\work\FR\FR.Web.Test\obj\Debug\netcoreapp2.0\FR.Web.Test.AssemblyInfoInputs.cache
+D:\work\FR\FR.Web.Test\obj\Debug\netcoreapp2.0\FR.Web.Test.AssemblyInfo.cs
+D:\work\FR\FR.Web.Test\obj\Debug\netcoreapp2.0\FR.Web.Test.dll
+D:\work\FR\FR.Web.Test\obj\Debug\netcoreapp2.0\FR.Web.Test.pdb
+D:\work\FR\FR.Web.Test\bin\Debug\netcoreapp2.0\FR.Core.dll
+D:\work\FR\FR.Web.Test\bin\Debug\netcoreapp2.0\FR.Core.pdb
