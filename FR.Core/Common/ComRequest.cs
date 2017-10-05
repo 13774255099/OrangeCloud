@@ -20,7 +20,7 @@ namespace FR.Core.Common
             else
                 Url += "?";
 
-            Url += string.Format("Key={0}&CPKey={1}", Base.Key, Base.CPKey);
+            Url += string.Format("Key={0}&CPKey={1}", Base.FR_Api_Key, Base.FR_Api_CPKey);
 
             return GetWeb(Url, Encoding.UTF8);
         }
@@ -36,9 +36,9 @@ namespace FR.Core.Common
         {
             Dictionary<string, string> parameters = new Dictionary<string, string>();
 
-            parameters.Add("Key", Base.Key);
+            parameters.Add("Key", Base.FR_Api_Key);
 
-            parameters.Add("CPKey", Base.CPKey);
+            parameters.Add("CPKey", Base.FR_Api_CPKey);
 
             parameters.Add("Data", Data.JsonSerialize());
 

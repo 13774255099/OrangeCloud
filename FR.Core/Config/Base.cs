@@ -46,7 +46,7 @@ namespace FR.Core
         /// <summary>
         /// （AppSettings）是否把SQL记录到文本日志
         /// </summary>
-        public static readonly string FR_Log_IsSave = ComConfig.AppSettings["FR.Log.IsSave"];
+        public static readonly bool FR_Log_IsSave = Convert.ToBoolean(ComConfig.AppSettings["FR.Log.IsSave"]);
 
         /// <summary>
         /// （AppSettings）文本日志路径

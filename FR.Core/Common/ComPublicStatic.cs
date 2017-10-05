@@ -17,11 +17,11 @@ namespace FR.Core
 
         public static string Save(string sql)
         {
-            var saveLog = Base.SaveLog;
+            var saveLog = Base.FR_Log_IsSave;
 
-            var savePath = Base.SavePath;
+            var savePath = Base.FR_Log_SavePath;
 
-            if (!string.IsNullOrWhiteSpace(saveLog) && saveLog.ToLower() == "true")
+            if (saveLog == true)
             {
                 if (string.IsNullOrWhiteSpace(savePath))
                     savePath = "d:\\Log\\";
@@ -52,5 +52,6 @@ namespace FR.Core
 
             return "";
         }
+
     }
 }
